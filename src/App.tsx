@@ -8,6 +8,7 @@ import { useState } from 'react';
 
 export const App = () => {
   const [newMovies, setNewMovies] = useState<Movie[]>([]);
+  // s
 
   return (
     <div className="page">
